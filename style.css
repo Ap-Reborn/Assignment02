@@ -154,6 +154,22 @@ ul li a{
     filter: grayscale(100%);
 }
 /* footer style */
+.section-5{
+    background-color: rgb(176, 168, 207);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box-container{
+    display: flex;
+    gap: 20px;
+}
+.contact-us{
+    text-align: center;
+}
 
 .section-5{
     align-items: center;
@@ -287,12 +303,20 @@ ul{
     text-align: center;
 }
 /* footer style */
-.section-5{
+/* .section-5{
     display: none;
+} */
+.container{
+    flex-direction: column;
+    gap: 10px;
+}
+.box-container{
+    flex-direction: column;
 }
 .section-5{
     flex-direction: column;
 }
+
 .footer p{
     font-size: 25px;
    text-align: center;
