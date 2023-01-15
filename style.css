@@ -154,6 +154,10 @@ ul li a{
     filter: grayscale(100%);
 }
 /* footer style */
+
+.section-5{
+    align-items: center;
+}
 .footer{
     background-color: #FFF4E7;
 }
@@ -283,6 +287,12 @@ ul{
     text-align: center;
 }
 /* footer style */
+.section-5{
+    display: none;
+}
+.section-5{
+    flex-direction: column;
+}
 .footer p{
     font-size: 25px;
    text-align: center;
